@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/springboot/springboot.iml" filepath="$PROJECT_DIR$/springboot/springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot/springboot_fileUpAndDown/springboot_fileUpAndDown.iml" filepath="$PROJECT_DIR$/springboot/springboot_fileUpAndDown/springboot_fileUpAndDown.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot/springboot_hello/springboot_hello.iml" filepath="$PROJECT_DIR$/springboot/springboot_hello/springboot_hello.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/wyl-java.iml" filepath="$PROJECT_DIR$/.idea/wyl-java.iml" />
     </modules>

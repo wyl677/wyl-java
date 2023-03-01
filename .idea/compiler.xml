@@ -2,15 +2,23 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot_hello" />
+        <module name="springboot_fileUpAndDown" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="springboot_hello" target="1.5" />
+      <module name="springboot_fileUpAndDown" target="1.8" />
+      <module name="springboot_hello" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot_fileUpAndDown" options="-parameters" />
+    </option>
   </component>
 </project>
