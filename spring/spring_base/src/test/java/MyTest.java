@@ -1,6 +1,7 @@
 import com.wyl.basic.BeanFactory;
 import com.wyl.basic.Person;
 import com.wyl.basic.User;
+import com.wyl.beanpost.Categroy;
 import com.wyl.converter.Student;
 import com.wyl.life.Product;
 import org.junit.Test;
@@ -104,5 +105,15 @@ public class MyTest {
         ApplicationContext context = new ClassPathXmlApplicationContext("/applicationContext2.xml");
         Student stu = context.getBean("stu", Student.class);
         System.out.println(stu);
+    }
+
+    /**
+     * 测试后置Bean
+     */
+    @Test
+    public void test10(){
+        ApplicationContext context = new ClassPathXmlApplicationContext("/applicationContext3.xml");
+        Categroy categroy = context.getBean("categroy", Categroy.class);
+        System.out.println(categroy);
     }
 }
