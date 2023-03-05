@@ -1,6 +1,7 @@
 import com.wyl.basic.BeanFactory;
 import com.wyl.basic.Person;
 import com.wyl.basic.User;
+import com.wyl.converter.Student;
 import com.wyl.life.Product;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
@@ -83,5 +84,25 @@ public class MyTest {
         Product product = context.getBean("product", Product.class);
         System.out.println(product);
         context.close();
+    }
+
+    /**
+     * 测试配置文件参数化
+     */
+    @Test
+    public void test08(){
+        ApplicationContext context = new ClassPathXmlApplicationContext("/applicationContext1.xml");
+        Connection conn = context.getBean("conn", Connection.class);
+        System.out.println(conn);
+    }
+
+    /**
+     * 测试自定义类型转换器
+     */
+    @Test
+    public void test09(){
+        ApplicationContext context = new ClassPathXmlApplicationContext("/applicationContext2.xml");
+        Student stu = context.getBean("stu", Student.class);
+        System.out.println(stu);
     }
 }
