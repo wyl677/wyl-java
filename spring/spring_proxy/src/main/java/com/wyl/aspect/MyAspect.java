@@ -25,10 +25,10 @@ import org.aspectj.lang.annotation.Pointcut;
 @Aspect //切面类
 public class MyAspect {
 
-    @Pointcut("execution(* *..UserServiceImpl.*(..))") //切入点提取，便于复用
+    @Pointcut("execution(* *..MyUserServiceImpl.*(..))") //切入点提取，便于复用
     public void myPointcut(){}
 
-    @Around(value = "myPointcut()") //相当于类继承了MethodInterceptor接口重写的 invoke方法。Object也代表原始方法的返回值,ProceedingJoinPoint相当于MethodInvocation
+    @Around(value = "myPointcut()") //相当于类实现了MethodInterceptor接口重写的 invoke方法。Object也代表原始方法的返回值,ProceedingJoinPoint相当于MethodInvocation
     public Object arround(ProceedingJoinPoint joinPoint) throws Throwable {
         System.out.println("-------aspect log-------");
         Object ret = joinPoint.proceed();

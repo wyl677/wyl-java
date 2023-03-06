@@ -1,5 +1,6 @@
 package com.wyl.aspect;
 
+import com.wyl.proxy.User;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -12,6 +13,5 @@ public class Test {
         ApplicationContext context = new ClassPathXmlApplicationContext("/applicationContext2.xml");
         UserService userService = (UserService) context.getBean("userService");
         userService.login("wyl","123456");
-
     }
 }
