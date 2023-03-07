@@ -35,7 +35,7 @@ public class MyAspect {
         return ret;
     }
 
-    @Around(value = "myPointcut()") //相当于类继承了MethodInterceptor接口重写的 invoke方法。Object也代表原始方法的返回值,ProceedingJoinPoint相当于MethodInvocation
+    @Around(value = "myPointcut()") //相当于类实现了MethodInterceptor接口重写的 invoke方法。Object也代表原始方法的返回值,ProceedingJoinPoint相当于MethodInvocation
     public Object arround1(ProceedingJoinPoint joinPoint) throws Throwable {
         System.out.println("-------aspect tx-------");
         Object ret = joinPoint.proceed();
