@@ -7,15 +7,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot_fileUpAndDown" />
-        <module name="springboot_jdbc" />
         <module name="springboot_hello" />
+        <module name="springboot_fileUpAndDown" />
+        <module name="spring_proxy" />
+        <module name="spring_readproperties" />
+        <module name="spring_mybatis" />
+        <module name="spring_annotation" />
+        <module name="spring_base" />
+        <module name="stream" />
+        <module name="springboot_jdbc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="spring_annotation" target="1.8" />
+      <module name="spring_base" target="1.8" />
+      <module name="spring_mybatis" target="1.8" />
+      <module name="spring_proxy" target="1.8" />
+      <module name="spring_readproperties" target="1.8" />
       <module name="springboot_fileUpAndDown" target="1.8" />
       <module name="springboot_hello" target="1.8" />
       <module name="springboot_jdbc" target="1.8" />
+      <module name="stream" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

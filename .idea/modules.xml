@@ -3,10 +3,17 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/java_base/java_base.iml" filepath="$PROJECT_DIR$/java_base/java_base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/spring.iml" filepath="$PROJECT_DIR$/spring/spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/spring_annotation/spring_annotation.iml" filepath="$PROJECT_DIR$/spring/spring_annotation/spring_annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/spring_base/spring_base.iml" filepath="$PROJECT_DIR$/spring/spring_base/spring_base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/spring_mybatis/spring_mybatis.iml" filepath="$PROJECT_DIR$/spring/spring_mybatis/spring_mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/spring_proxy/spring_proxy.iml" filepath="$PROJECT_DIR$/spring/spring_proxy/spring_proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/spring_readproperties/spring_readproperties.iml" filepath="$PROJECT_DIR$/spring/spring_readproperties/spring_readproperties.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot/springboot.iml" filepath="$PROJECT_DIR$/springboot/springboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot/springboot_fileUpAndDown/springboot_fileUpAndDown.iml" filepath="$PROJECT_DIR$/springboot/springboot_fileUpAndDown/springboot_fileUpAndDown.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot/springboot_hello/springboot_hello.iml" filepath="$PROJECT_DIR$/springboot/springboot_hello/springboot_hello.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot/springboot_jdbc/springboot_jdbc.iml" filepath="$PROJECT_DIR$/springboot/springboot_jdbc/springboot_jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/stream/stream.iml" filepath="$PROJECT_DIR$/spring/stream/stream.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/wyl-java.iml" filepath="$PROJECT_DIR$/.idea/wyl-java.iml" />
     </modules>
   </component>

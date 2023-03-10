@@ -9,6 +9,12 @@
         <option value="$PROJECT_DIR$/springboot/springboot_hello/pom.xml" />
         <option value="$PROJECT_DIR$/springboot/springboot_fileUpAndDown/pom.xml" />
         <option value="$PROJECT_DIR$/springboot/springboot_jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/spring/spring_readproperties/pom.xml" />
+        <option value="$PROJECT_DIR$/spring/spring_base/pom.xml" />
+        <option value="$PROJECT_DIR$/spring/spring_proxy/pom.xml" />
+        <option value="$PROJECT_DIR$/spring/spring_mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring/spring_annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/spring/stream/pom.xml" />
       </list>
     </option>
   </component>
