@@ -12,6 +12,7 @@ public class HelloController {
 
     @RequestMapping("/")
     public String index(){
+        System.out.println("1111");
         //返回视图名称
         return "index";
     }
